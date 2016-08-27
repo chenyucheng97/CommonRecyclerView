@@ -1,7 +1,9 @@
 # CommonRecyclerView
 
 此项目参考了鸿洋的baseAdapter和judy的EasyRecyclerView
+
 baseAdapter:https://github.com/hongyangAndroid/baseAdapter
+
 EasyRecyclerView:https://github.com/Jude95/EasyRecyclerView
 
 简要介绍：
