@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.example.unicorn.commonrecyclerview_library.CommonRecyclerView
+        android:id="@+id/common_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_progress = "@layout/view_progress"
+        app:layout_empty = "@layout/view_empty"
+        app:layout_error = "@layout/view_error"
+
+        app:recyclerClipToPadding = "false"
+        app:recyclerPaddingTop = "10dp"
+        app:recyclerPaddingBottom= "10dp"
+        app:recyclerPaddingLeft= "10dp"
+        app:recyclerPaddingRight= "10dp"
+        app:scrollbarStyle = "insideOverlay">
+
+    </com.example.unicorn.commonrecyclerview_library.CommonRecyclerView>
+
+</LinearLayout>
